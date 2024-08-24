@@ -1,0 +1,38 @@
+
+.join {
+   font-style: italic;
+   margin-left: 550px;
+   margin-right:50px;
+}
+
+.applyforloan {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 50px;
+ }
+
+ .loanpayment {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .branches {
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 25px;
+ }
+
+ .foremployers {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .rates {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 0px;
+    
+ }
+ 

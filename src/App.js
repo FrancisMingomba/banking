@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+//import {  Routes } from "react-router-dom";
+//import "./css/App.css";
+//import LoginForm from './components/loginForm';
+import NavBar from "./components/navBar";
+import MiniNavBar from "./components/miniNavBar";
+//import RegisterForm from "./components/registerForm";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component {
+  render() {
+    return (   
+      <React.Fragment>      
+         <div> <MiniNavBar />
+        </div>
+        <NavBar />
+        <main className="container">
+        </main> 
+        <div class="alert"></div>
+      </React.Fragment>
+      
+
+      
+    );
+    
+
+      
+  }
 }
 
 export default App;
