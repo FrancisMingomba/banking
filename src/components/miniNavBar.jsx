@@ -11,7 +11,7 @@ const NavBar = ({ user }) => {
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
           <NavLink className="nav-item nav-link" to="/home">
-           <p class="join">join</p> 
+           <p className="join">join</p> 
           </NavLink>
           { !user && (
           <React.Fragment>        

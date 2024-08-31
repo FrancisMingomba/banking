@@ -1,0 +1,151 @@
+.under-nav {
+       width: 1500px;
+       height: 30px;
+       background-color: rgb(110, 173, 97);
+       font-weight: bold;
+       color:red;
+       text-align: center;
+}
+.body {width: 1500px;
+       height: 800px;
+       bottom: 16px;
+    
+}
+.container1 {
+       width: 1500px;
+       height: 350px;
+       background-color: rgba(22, 21, 21, 0.818);
+}
+.container2 {
+       height: 200px;  
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: center;
+       bottom: 25px;
+       top: 20px;
+
+       
+}
+.container3 {
+       width: 1500px;
+       height: 360px;
+    
+       background-color:  rgba(22, 21, 21, 0.818) ;
+       
+}
+
+.image1{
+       width: 550px;
+       height: 330px;
+       border: 3px solid #2f21ad;
+       background-color: rgb(205, 91, 50);
+       position:relative;
+       left: 50rem;
+       bottom: 12rem;
+}
+.image2{
+       width: 550px;
+       height: 360px;
+       border: 3px solid #4319ad;
+       background-color: rgb(205, 91, 50);
+       position:relative;
+       left: 3rem;
+       bottom: 19rem;
+}
+.body2{
+       width: 760px;
+       height: 330px;
+       border: 3px solid #73AD21;
+       background-color: rgb(33, 53, 233);
+       position:relative;
+       left: 40rem;
+       bottom: -2rem;
+}
+.text1 {
+       margin:10px;    
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 40px;
+       color: aliceblue; 
+}
+.text {
+       margin:10px;    
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 8px;
+       text-indent: 20px;
+       color: aliceblue; 
+}
+.p1 {
+       margin:10px; 
+       font-weight: bold;
+       font-size: 30px;
+       color: aliceblue;     
+}
+
+
+
+.P-get-started {
+       width: 7rem;
+       height: 4rem;
+       background-color: aliceblue;
+
+}
+.get-started1 {
+       width: 8rem;
+       height: 3rem;
+       border: 3px solid #73AD21;
+       background-color: aliceblue;
+       position:relative;
+       left: 1rem;
+       bottom: 4px;
+     
+}
+
+.container-box {
+       width: 8em;
+       height: 5rem;
+       margin: 1rem;
+       cursor: pointer;
+       background: aliceblue;
+
+}
+
+.get-started2 {
+       width: 8rem;
+       height: 3rem;
+       border: 3px solid #73AD21;
+       background-color: aliceblue;
+       position:relative;
+       left:  1rem;
+       bottom: -5rem;
+     
+}
+.P-get-started2 {
+       width: 10rem;
+       height: 6rem;
+       background-color: aliceblue;
+
+}
+.p2 {
+       margin:10px; 
+       font-weight: bold;
+       font-size: 30px;
+       color: aliceblue;     
+}
+.other {
+       height: 380px;
+       background-color: orange;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       bottom: 10rem;
+    
+    
+}
+
+
+
+
+

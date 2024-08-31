@@ -50,10 +50,15 @@
   background: transparent;
  }
  .box a .fas{
-  color: #1daf;
+  color: rgb(129, 196, 110);
   font-size: 18px;
  }
  .alert fix {
   border-bottom: 5px solid green;
+}
+#navbarNavAltMarkup {
+  width: 1500px;
+  height: 200;
+
 }
 
