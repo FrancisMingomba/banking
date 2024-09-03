@@ -12,7 +12,6 @@ class App extends Component {
     return (   
       <React.Fragment>
         <div class="body">
-          
         <div> <MiniNavBar />
         </div><NavBar />
         <div><Home />

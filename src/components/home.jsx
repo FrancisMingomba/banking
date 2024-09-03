@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "../css/home.css";
 import {  NavLink } from "react-router-dom";
+import COFFEE from "../images/coffee.jpg"
 
 class Home extends Component {
    
@@ -66,11 +67,41 @@ class Home extends Component {
                     </div>    
                     <div className="image2"></div>   
                 </div>
+                <div className='x'></div>
                 <div className="container4">
                     <div className="other">
-                        
+                        <h1 className="p-other">Image here...</h1>
                     </div>
-                </div>                                                     
+                </div>    
+
+              <div className="news-annocements">
+                <div className="news-annocement ">News & Annocements</div>  
+              </div>
+
+               
+
+                <div className="container5">
+                    <div className="image-description">                  
+                    <img className="coffee-image" src={COFFEE} alt="" />                
+                    <p className="container5-p1">Did you know GreenState offers Card Controls for your debit & credit card?</p>
+                    <p className="container5-p2">Use this service in onlone Banking to:</p>
+                    <ul className>
+                        <li>
+                           <p className="container5-p3">Set alert to maange spending, transaction, and more</p> 
+                        </li>
+                        <li>
+                           <p className="container5-p3">Enable or disable your card</p> 
+                        </li>
+                        <li>
+                          <p className="container5-p3"> Set travel notification</p> 
+                        </li>                  
+                    </ul>    
+                    <div className="container5-learn-more">
+                        <p className="">Learn more</p>
+                    </div>              
+                    </div>
+                    
+                </div>               
      </div>                    
         );
     }
