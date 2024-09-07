@@ -28,16 +28,7 @@
    font-weight: bold;
    font-size: 20px;
  }
- .box{
-  height: 30px;
-  display: flex;
-  cursor: pointer;
-  padding: 10px 20px;
-  background: #fff;
-  border-radius: 30px;
-  align-items: center;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
- }
+
  .box:hover input{
   width: 400px;;
  }

@@ -81,10 +81,11 @@ class Home extends Component {
                
 
                 <div className="container5">
+               
                     <div className="image-description">                  
                     <img className="coffee-image" src={COFFEE} alt="" />                
                     <p className="container5-p1">Did you know GreenState offers Card Controls for your debit & credit card?</p>
-                    <p className="container5-p2">Use this service in onlone Banking to:</p>
+                    
                     <ul className>
                         <li>
                            <p className="container5-p3">Set alert to maange spending, transaction, and more</p> 
@@ -94,15 +95,26 @@ class Home extends Component {
                         </li>
                         <li>
                           <p className="container5-p3"> Set travel notification</p> 
-                        </li>                  
+                        </li>                                
                     </ul>    
-                    <div className="container5-learn-more">
-                        <p className="">Learn more</p>
-                    </div>              
-                    </div>
-                    
-                </div>               
-     </div>                    
+                          <div className="p-container5-learn-more ">learn more</div>                       
+                    </div>                
+                </div>  
+                
+
+                <div className="container7">
+                    <div className="box">A</div>
+                    <div className="box">B</div>
+                    <div className="box">C</div>
+                    <div className="box">D</div>
+                    <div className="box">E</div>
+                    <div className="box">footer</div>
+                   
+                
+                </div>
+
+                         
+              </div>                    
         );
     }
 }

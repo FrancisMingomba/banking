@@ -39,7 +39,7 @@
 .image1{
        width: 550px;
        height: 330px;
-       border: 3px solid #2f21ad;
+       border: 1px solid #2f21ad;
        background-color: rgb(205, 91, 50);
        position:relative;
        left: 50rem;
@@ -48,7 +48,7 @@
 .image2{
        width: 550px;
        height: 360px;
-       border: 3px solid #4319ad;
+       border: 1px solid #4319ad;
        background-color: rgb(205, 91, 50);
        position:relative;
        left: 3rem;
@@ -57,7 +57,7 @@
 .body2{
        width: 760px;
        height: 330px;
-       border: 3px solid #73AD21;
+       border: 1px solid #73AD21;
        background-color: rgb(33, 53, 233);
        position:relative;
        left: 40rem;
@@ -96,7 +96,7 @@
 .get-started1 {
        width: 8rem;
        height: 3rem;
-       border: 3px solid #73AD21;
+       border: 1px solid #73AD21;
        background-color: aliceblue;
        position:relative;
        left: 1rem;
@@ -116,7 +116,7 @@
 .get-started2 {
        width: 8rem;
        height: 3rem;
-       border: 3px solid #73AD21;
+       border: 1px solid #73AD21;
        background-color: aliceblue;
        position:relative;
        left:  1rem;
@@ -148,7 +148,7 @@
 .other {
        width: 1100px;
        height: 350px;
-       border: 3px solid black;
+       border: 1px solid black;
        background-color: aliceblue;
        margin-left: 170px;
        height: 380px;
@@ -163,12 +163,12 @@
 .other1 {
        width: 1100px;
        height: 250px;
-       border: 3px solid black;
+       border: 1px solid black;
        background-color: aliceblue;
        margin-left: 170px;
 }
 .container5 {
-       width: 1800px;
+       width: 2000px;
        height: 350px;
        background-color: aqua;
        bottom: 40px;
@@ -185,7 +185,7 @@
 .news-annocements {
        width: 100%;
      
-       border: 2px solid black;
+       border: 1px solid black;
        display: flex;
        flex-direction: row;
        justify-content: space-evenly;
@@ -197,7 +197,7 @@
 .learn-more {
        width: 8rem;
        height: 3rem;
-       border: 3px solid #73AD21;
+       border: 1px solid #73AD21;
        background-color: green;
        position:relative;
        left:  25rem;
@@ -219,7 +219,7 @@
 .image-description {
        width: 1500px;
        height: 260px;
-       border: 2px solid black;
+       border: 1px solid black;
        bottom: 60px;
 
 }
@@ -243,10 +243,47 @@
        padding-bottom: 1px;
 }
 .container5-learn-more {
-     
-       
-
+       width: 1800px;
+       height: 420px;
+       border: 1px solid #73AD21;
+       background-color: aliceblue;
+       position:relative;
+       left: 290px;
+       bottom: -14px;
+      
 }
+.image-description {
+       width: 100%;
+       height: 250px;
+}
+.p-container5-learn-more {
+     
+       width: 8rem;
+       height: 3rem;
+       border: 1px solid red;
+       border: red;
+       float: left;
+       background-color: #1fe06c;
+       text-align: center;
+}
+
+
+
+.container7 {
+       display: grid; 
+       grid-template: 100px auto 100px / 70% 30%;
+       border: 1px solid black;  
+      
+   ;    
+}
+.box {
+     
+       background: gold;
+       border: 1px solid black;
+}
+
+
+
 
 
       

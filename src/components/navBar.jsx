@@ -41,7 +41,7 @@ const NavBar = ({ user }) => {
                 <p id="login">Login</p>
               </NavLink>
               <NavLink className="nav-item nav-link" to="/register">
-                <div className="boxx">
+                <div className="">
                   <script   src="https://kit.fontawesome.com/a076d05339.js"></script>
                   <input type="text" placeholder="search..."></input>
                   <i className="fas fa-search"></i>
