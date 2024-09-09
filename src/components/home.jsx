@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import "../css/home.css";
 import {  NavLink } from "react-router-dom";
-import COFFEE from "../images/coffee.jpg"
+import COFFEE from "../images/coffee.jpg";
+import { PiWalletDuotone } from "react-icons/pi";
+
 
 class Home extends Component {
    
@@ -23,36 +25,32 @@ class Home extends Component {
                             </div>                                
                 </div>  
                 <div className="container2">
-                        <div className="container-box">  
-                            <NavLink className="container-box" to="">
-                            <p className="">1</p> 
-                            </NavLink> 
-                        </div>
-                        <div className="container-box">  
-                            <NavLink className="container-box" to="">
-                            <p className="">2</p> 
-                            </NavLink> 
-                        </div>
-                        <div className="container-box">  
-                            <NavLink className="container-box" to="">
-                            <p className="">3</p> 
-                            </NavLink> 
-                        </div>                   
-                        <div className="container-box">  
-                            <NavLink className="container-box" to="">
-                            <p className="">4</p> 
-                            </NavLink> 
-                        </div>
-                        <div className="container-box">  
-                            <NavLink className="container-box" to="">
-                            <p className="">5</p> 
-                            </NavLink> 
-                        </div>
-                        <div className="container-box">  
-                            <NavLink className="container-box" to="">
-                            <p autoFocus className="">6</p> 
-                            </NavLink> 
-                        </div>                   
+                    
+                       <NavLink className="nav-item nav-link" to="/register">
+                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                            <p>Checkin Acconut</p>
+                       </NavLink> 
+                       <NavLink className="nav-item nav-link" to="/register">
+                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                            <p>Checkin Acconut</p>
+                        </NavLink> 
+                        <NavLink className="nav-item nav-link" to="/register">
+                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                            <p>Checkin Acconut</p>
+                        </NavLink> 
+                        <NavLink className="nav-item nav-link" to="/register">
+                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                            <p>Checkin Acconut</p>
+                        </NavLink>                  
+                        <NavLink className="nav-item nav-link" to="/register">
+                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                            <p>Checkin Acconut</p>
+                       </NavLink> 
+                       <NavLink className="nav-item nav-link" to="/register">
+                             <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                             <p>Checkin Acconut</p>
+                        </NavLink> 
+                                      
                 </div>   
                 <div className="container3">
                     <div className="body2">
@@ -81,8 +79,7 @@ class Home extends Component {
                
 
                 <div className="container5">
-               
-                    <div className="image-description">                  
+                                          
                     <img className="coffee-image" src={COFFEE} alt="" />                
                     <p className="container5-p1">Did you know GreenState offers Card Controls for your debit & credit card?</p>
                     
@@ -98,22 +95,58 @@ class Home extends Component {
                         </li>                                
                     </ul>    
                           <div className="p-container5-learn-more ">learn more</div>                       
-                    </div>                
+                                
                 </div>  
                 
 
                 <div className="container7">
-                    <div className="box">A</div>
-                    <div className="box">B</div>
-                    <div className="box">C</div>
-                    <div className="box">D</div>
-                    <div className="box">E</div>
-                    <div className="box">footer</div>
                    
-                
-                </div>
-
+                    <div className="box">
+                    <ul  className="footer_list1">
+                        
+                            <li className="footer_item"><a href="/#">Privacy Policy</a></li>
+                            <li className="footer_item"><a href="/#">Terms & Condition</a></li>
+                            <li className="footer_item"><a href="/#">Helps & Support</a></li>
+                            <li className="footer_item"><a href="/#">Contact us</a></li>
                          
+                    </ul>
+                    <li className="My_Best_Credit_Union">My Best Credit Union</li>
+                    <li className="po_box">PO Box 9999</li>
+                    <li className="address">Address, IA 99999-9999</li>
+                    <li className="phone">999-999-999 or 999-999-9999</li>
+                    <li className="routing_number">Routing number #9999999</li>
+                    <li className="footer_paragraphe2">if you are using a screen reader or other assistive divice</li>
+                    <li className="footer_paragraphe2">ortechnology and are having problem using this</li>
+                    <li className="footer_paragraphe2">call 999-999-9999</li>
+                    </div>
+                    <div className="footer_items">                   
+                            <div className="item1">
+                                <div className="img1">
+                                    <p>Image here1</p>
+                                </div>
+                            </div>
+                            <div className="item2">
+                                <div className="img2">
+                                   <p>Image here2</p>  
+                                   </div>                             
+                            </div>
+                            <div className="item3">
+                                <div className="img3">
+                                      <p>Image here3</p>
+                                </div>
+
+                            </div>
+                                 <div className="item4">
+                                   
+                                    <li className="p1_item4">Federally insure by</li>
+                                    <li className="p2_item4">Equal Housing Opportuniy</li>
+                                    <li className="p3_item4">&copy; 2024 My Best Credit union</li>
+                                   
+                                 </div>   
+                           
+                            </div>
+                                 
+                </div>                      
               </div>                    
         );
     }
