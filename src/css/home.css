@@ -20,18 +20,27 @@
        width: 100%;
        height: 350px;
        background-color: rgba(22, 21, 21, 0.818);
+
 }
 .container2 {
        width: 100%;
-       height: 200px;  
+       height: 220px;  
        display: flex;
        flex-direction: row;
        justify-content: space-evenly;
        align-items: center;
        bottom: 25px;
-       top: 20px;
-
-       
+       top: 20px;       
+}
+.wallet {
+       width: 120px;
+       height: 40px;
+       color: rgb(79, 71, 71);
+       text-align:center;
+       font-weight: bold; 
+}
+.container2_boxes:hover {
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;     
 }
 .container3 {
        width: 100%;
@@ -126,14 +135,7 @@
 
 
 }
-.wallet {
-       width: 120px;
-       height: 40px;
-       color: rgb(79, 71, 71);
-       text-align:center;
-    
-    
-}
+
 
 .get-started2 {
        width: 8rem;

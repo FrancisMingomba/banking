@@ -3,6 +3,11 @@ import "../css/home.css";
 import {  NavLink } from "react-router-dom";
 import COFFEE from "../images/coffee.jpg";
 import { PiWalletDuotone } from "react-icons/pi";
+import { PiChatCircleDotsDuotone } from "react-icons/pi";
+import { PiHouseLineDuotone } from "react-icons/pi";
+import { PiCarDuotone } from "react-icons/pi";
+import { PiIdentificationCardDuotone } from "react-icons/pi";
+import { GiNetworkBars } from "react-icons/gi";
 
 
 class Home extends Component {
@@ -25,31 +30,42 @@ class Home extends Component {
                             </div>                                
                 </div>  
                 <div className="container2">
-                    
+                        <div className="container2_boxes">
                        <NavLink className="nav-item nav-link" to="/register">
                             <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                            <p>Checkin Acconut</p>
+                            <p class="wallet">Checkin Acconut</p>
                        </NavLink> 
+                       </div>
+                       <div className="container2_boxes">
                        <NavLink className="nav-item nav-link" to="/register">
-                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                            <p>Checkin Acconut</p>
+                            < PiCarDuotone  className="wallet" />
+                            <p class="wallet">Auto Loans</p>
                         </NavLink> 
+                        </div>
+                        <div className="container2_boxes">
                         <NavLink className="nav-item nav-link" to="/register">
-                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                            <p>Checkin Acconut</p>
+                            <p class="wallet">< PiHouseLineDuotone  className="wallet" /></p>
+                            <p class="wallet">Mortgage Loan</p>
                         </NavLink> 
+                        </div>
+                        <div className="container2_boxes">
                         <NavLink className="nav-item nav-link" to="/register">
-                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                            <p>Checkin Acconut</p>
-                        </NavLink>                  
+                            < GiNetworkBars  className="wallet" />
+                            <p class="wallet">Morney Markets</p>
+                        </NavLink>   
+                        </div>
+                        <div className="container2_boxes">              
                         <NavLink className="nav-item nav-link" to="/register">
-                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                            <p>Checkin Acconut</p>
+                           <  PiIdentificationCardDuotone  className="wallet" />
+                            <p class="wallet">Financial Education</p> 
                        </NavLink> 
+                       </div> 
+                       <div className="container2_boxes">
                        <NavLink className="nav-item nav-link" to="/register">
-                             <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                             <p>Checkin Acconut</p>
+                            <  PiChatCircleDotsDuotone className="wallet" />
+                             <p class="wallet">Feedback</p>                           
                         </NavLink> 
+                        </div>
                                       
                 </div>   
                 <div className="container3">
@@ -102,13 +118,20 @@ class Home extends Component {
                 <div className="container7">
                    
                     <div className="box">
-                    <ul  className="footer_list1">
-                        
+                    <div className="social_media_icons">
+                    <div className="container2_boxes">
+                       <NavLink className="nav-item nav-link" to="/register">
+                            <  PiChatCircleDotsDuotone className="wallet" />                        
+                        </NavLink> 
+                        </div>
+                               
+                                        
+                    </div> 
+                    <ul  className="footer_list1">                      
                             <li className="footer_item"><a href="/#">Privacy Policy</a></li>
                             <li className="footer_item"><a href="/#">Terms & Condition</a></li>
                             <li className="footer_item"><a href="/#">Helps & Support</a></li>
-                            <li className="footer_item"><a href="/#">Contact us</a></li>
-                         
+                            <li className="footer_item"><a href="/#">Contact us</a></li>                       
                     </ul>
                     <li className="My_Best_Credit_Union">My Best Credit Union</li>
                     <li className="po_box">PO Box 9999</li>
@@ -134,18 +157,14 @@ class Home extends Component {
                                 <div className="img3">
                                       <p>Image here3</p>
                                 </div>
-
                             </div>
-                                 <div className="item4">
-                                   
+                                 <div className="item4">                                  
                                     <li className="p1_item4">Federally insure by</li>
                                     <li className="p2_item4">Equal Housing Opportuniy</li>
-                                    <li className="p3_item4">&copy; 2024 My Best Credit union</li>
-                                   
+                                    <li className="p3_item4">&copy; 2024 My Best Credit union</li>                                  
                                  </div>   
                            
-                            </div>
-                                 
+                            </div>                              
                 </div>                      
               </div>                    
         );
